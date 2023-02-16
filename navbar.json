@@ -1,0 +1,137 @@
+[
+    {
+        "name": "users",
+        "icon": "nav-icon fas fa-tachometer-alt",
+        "route": "users.index",
+        "children": [
+            {
+                "name": "list users",
+                "route": "users.index"
+            },
+            {
+                "name": "create new user",
+                "route": "users.create"
+            }
+        ]
+    },
+    {
+        "name": "admin_cruds",
+        "icon": "nav-icon fas fa-tachometer-alt",
+        "route": "admin_cruds.index",
+        "children": [
+            {
+                "name": "list admin_cruds",
+                "route": "admin_cruds.index"
+            },
+            {
+                "name": "create new admin_crud",
+                "route": "admin_cruds.create"
+            }
+        ]
+    },
+    {
+        "name": "admins",
+        "icon": "nav-icon fas fa-tachometer-alt",
+        "route": "admins.index",
+        "children": [
+            {
+                "name": "list admins",
+                "route": "admins.index"
+            },
+            {
+                "name": "create new admin",
+                "route": "admins.create"
+            }
+        ]
+    },
+    {
+        "name": "admins",
+        "icon": "nav-icon fas fa-tachometer-alt",
+        "route": "admins.index",
+        "children": [
+            {
+                "name": "list admins",
+                "route": "admins.index"
+            },
+            {
+                "name": "create new admin",
+                "route": "admins.create"
+            }
+        ]
+    },
+    {
+        "name": "superadmins",
+        "icon": "nav-icon fas fa-tachometer-alt",
+        "route": "superadmins.index",
+        "children": [
+            {
+                "name": "list superadmins",
+                "route": "superadmins.index"
+            },
+            {
+                "name": "create new superadmin",
+                "route": "superadmins.create"
+            }
+        ]
+    },
+    {
+        "name": "posts",
+        "icon": "nav-icon fas fa-tachometer-alt",
+        "route": "posts.index",
+        "children": [
+            {
+                "name": "list posts",
+                "route": "posts.index"
+            },
+            {
+                "name": "create new post",
+                "route": "posts.create"
+            }
+        ]
+    },
+    {
+        "name": "postcomments",
+        "icon": "nav-icon fas fa-tachometer-alt",
+        "route": "postcomments.index",
+        "children": [
+            {
+                "name": "list postcomments",
+                "route": "postcomments.index"
+            },
+            {
+                "name": "create new postcomment",
+                "route": "postcomments.create"
+            }
+        ]
+    },
+    {
+        "name": "postlikes",
+        "icon": "nav-icon fas fa-tachometer-alt",
+        "route": "postlikes.index",
+        "children": [
+            {
+                "name": "list postlikes",
+                "route": "postlikes.index"
+            },
+            {
+                "name": "create new postlike",
+                "route": "postlikes.create"
+            }
+        ]
+    },
+    {
+        "name": "products",
+        "icon": "nav-icon fas fa-tachometer-alt",
+        "route": "products.index",
+        "children": [
+            {
+                "name": "list products",
+                "route": "products.index"
+            },
+            {
+                "name": "create new product",
+                "route": "products.create"
+            }
+        ]
+    }
+]
